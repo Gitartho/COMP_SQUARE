@@ -1,0 +1,10 @@
+6.28 6.28 6.28 			! Lx Ly Lz of block
+1						! nblocks 
+64 64 64				! i j k of block
+5 6						! nconserv, nprim
+1600 0.1 1.4 0.71 300 	! Re, Mach, gamma, prandtl, T_ref
+0 3						! grid2D, dscheme (1-E2, 2-E4, 3-C4, 4-C6), bscheme1, bscheme2 
+10 0.495				! filter scheme, alpha_f
+0						! euler: 1, NS: 0 
+2000 0.001 100			! nstep, time_step, animfreq
+
